@@ -1,0 +1,47 @@
+.env
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.log
+*.cache
+*.lock
+*.swo
+*.swp
+*~
+*.db
+*.sqlite
+*.tlog
+*.pid
+*.pid.lock
+*.db-journal
+
+# Ignore Synology NAS metadata files
+@eaDir/
+
+# Ignore build artifacts and generated files
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+#dist/
+build/
+*.class
+
+# Ignore IDE and editor files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.iml
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore Python virtual environment
+venv/

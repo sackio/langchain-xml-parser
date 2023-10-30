@@ -1,0 +1,36 @@
+{
+  "name": "langchain-xml-parser",
+  "version": "0.0.1",
+  "scripts": {
+    "tests": "npx mocha --exit \"$INIT_CWD/test/*.js\""
+  },
+  "dependencies": {
+    "langchain": "*",
+    "libxmljs": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "description": "XML structured output parser for Langchain JS. Ensures LLM output adheres to specified XML schema",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sackio/langchain-xml-parser.git"
+  },
+  "keywords": [
+    "llm",
+    "gpt",
+    "langchain",
+    "xml"
+  ],
+  "author": "Ben Sack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sackio/langchain-xml-parser/issues"
+  },
+  "homepage": "https://github.com/sackio/langchain-xml-parser#readme"
+}
